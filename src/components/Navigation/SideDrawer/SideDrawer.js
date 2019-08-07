@@ -12,6 +12,7 @@ const sideDrawer = (props) => {
     if(props.open){
         attachedClasses = [classes.SideDrawer, classes.Open];
     }
+    
 
     return(
         <Aux>
